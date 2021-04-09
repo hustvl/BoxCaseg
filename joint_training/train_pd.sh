@@ -5,3 +5,7 @@ CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 -
 --dut_label_folder ./data/DUTS/DUTS-TR-Mask-single/ \
 --fcn_ratio 0.7 \
 
+# --dut_image_folder ./data/DUTS/DUTS-TR-Image-single/ \
+# --dut_label_folder ./data/DUTS/DUTS-TR-Mask-single/ \
+# --dut_image_folder ./data/DUTS/DUTS-TR-Image-single-new/ \
+# --dut_label_folder ./data/DUTS/DUTS-TR-Mask-single-new/ \
