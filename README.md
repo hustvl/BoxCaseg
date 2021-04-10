@@ -40,8 +40,17 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE -->
 ## Usage
-We provide the DUT-TR-Single datasets, the cocostyle annotations of PASCAL VOC and our pre-trained models
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Here, we provide the DUT-TR-Single datasets, the cocostyle annotations of PASCAL VOC, our pre-trained models and proxy masks for training set.
+* [BaiduCloud]() The password is '****'.
+* [GoogleDrive]()
+
+### Training 
+* 1. After you . More detailed instructions are provided in 'jointraining'.
+
+* 2. Generate the proxy masks for box-supervised dataset.
+
+* 3. Retrain a Mask R-CNN.
+
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
