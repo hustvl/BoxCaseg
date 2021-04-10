@@ -1,4 +1,4 @@
-# Weakly-supervised Instance Segmentation via Class-agnostic Learning with Salient Images.
+# Weakly-supervised Instance Segmentation via Class-agnostic Learning with Salient Images.(CVPR 2021)
 
 This is the official code of the paper Weakly-supervised Instance Segmentation via Class-agnostic Learning with Salient Images, by Xinggang Wang, Jiapei Feng, Bin Hu, Qi Ding, Longjin Ran, Xiaoxin Chen, Wenyu Liu.
 
@@ -8,7 +8,7 @@ This is the official code of the paper Weakly-supervised Instance Segmentation v
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#Introduction">Introduction</a>
+      <a href="#introduction">Introduction</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -18,8 +18,7 @@ This is the official code of the paper Weakly-supervised Instance Segmentation v
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#citation">Citation</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -100,16 +99,17 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+<!-- CITATION -->
+## Citation
+If you find the code useful in your research, please consider citing:
+```BibTeX
+@inproceedings{wang2021boxcaseg,
+  title     =  {{BoxInst}: High-Performance Instance Segmentation with Box Annotations},
+  author    =  {Tian, Zhi and Shen, Chunhua and Wang, Xinlong and Chen, Hao},
+  booktitle =  {Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
+  year      =  {2021}
+}
+```
 
 
 
