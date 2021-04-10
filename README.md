@@ -26,22 +26,11 @@ This is the official code of the paper Weakly-supervised Instance Segmentation v
 
 
 
-<!-- ABOUT THE PROJECT -->
+<!--INTRODUCTION-->
 ## Introduction
 <p align="center"><img src="figures/pipeline.png" alt="pipeline" width="90%"></p>
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Weakly-supervised instance segmentation uses coarser annotations to acquire a high-precision instance segmentation model, such as bounding boxes. This "box-to-seg" process is a class-agnostic process. Our motivation is to learn a BoxCaseg model that achieves generic class-agnostic segmentation. Our training process is divided into three steps. First, we obtain a class-agnostic segmentation model through the joint training of box-supervised dataset and salient object segmentation dataset. Second, we use the class-agnostic segmentation model to produce high-quality predictions for training instances. Those segmentation predictions are merged to generate proxy instance masks for training images. Finally, we re-train a Mask R-CNN with proxy masks.
 
 <!-- GETTING STARTED -->
 ## Getting Started
