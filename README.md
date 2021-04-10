@@ -28,6 +28,7 @@ This is the official code of the paper Weakly-supervised Instance Segmentation v
 
 <!-- ABOUT THE PROJECT -->
 ## Introduction
+<p align="center"><img src="figures/pipeline.png" alt="pipeline" width="90%"></p>
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
