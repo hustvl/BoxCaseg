@@ -8,7 +8,7 @@ This is the official code of the paper Weakly-supervised Instance Segmentation v
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#Introduction">About The Project</a>
+      <a href="#Introduction">Introduction</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
