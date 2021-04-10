@@ -30,13 +30,11 @@ This is the official code of the paper Weakly-supervised Instance Segmentation v
 ## Introduction
 <p align="center"><img src="figures/pipeline.png" alt="pipeline" width="90%"></p>
 
-Weakly-supervised instance segmentation uses coarser annotations to acquire a high-precision instance segmentation model, such as bounding boxes. This "box-to-seg" process is a class-agnostic process. Our motivation is to learn a BoxCaseg model that achieves generic class-agnostic segmentation. Our training process is divided into three steps. First, we obtain a class-agnostic segmentation model through the joint training of box-supervised dataset and salient object segmentation dataset. Second, we use the class-agnostic segmentation model to produce high-quality predictions for training instances. Those segmentation predictions are merged to generate proxy instance masks for training images. Finally, we re-train a Mask R-CNN with proxy masks.
+Weakly-supervised instance segmentation uses coarser annotations to acquire a high-precision instance segmentation model, such as bounding boxes. This "box-to-seg" process is a class-agnostic process. Our motivation is to learn a model that achieves generic class-agnostic segmentation. 
+Our training process is divided into three steps. First, we obtain a class-agnostic segmentation model through the joint training of box-supervised dataset and salient object segmentation dataset. Second, we use the class-agnostic segmentation model to produce high-quality predictions for training instances. Those segmentation predictions are merged to generate proxy instance masks for training images. Finally, we re-train a Mask R-CNN with proxy masks.
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
