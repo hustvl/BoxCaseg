@@ -1,5 +1,6 @@
 # Weakly-supervised Instance Segmentation via Class-agnostic Learning with Salient Images.
 
+This is the official code of the paper Weakly-supervised Instance Segmentation via Class-agnostic Learning with Salient Images, by Xinggang Wang, Jiapei Feng, Bin Hu, Qi Ding, Longjin Ran, Xiaoxin Chen, Wenyu Liu.
 
 <!-- PROJECT SHIELDS -->
 <!--
