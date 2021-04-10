@@ -8,10 +8,7 @@ This is the official code of the paper Weakly-supervised Instance Segmentation v
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#Introduction">About The Project</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -32,7 +29,7 @@ This is the official code of the paper Weakly-supervised Instance Segmentation v
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Introduction
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
