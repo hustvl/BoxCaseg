@@ -26,7 +26,7 @@ This is the official code of the paper Weakly-supervised Instance Segmentation v
 
 
 
-<!--INTRODUCTION-->
+<!-- INTRODUCTION -->
 ## Introduction
 <p align="center"><img src="figures/pipeline.png" alt="pipeline" width="90%"></p>
 
@@ -41,18 +41,8 @@ The training process is divided into three steps. First, we obtain a class-agnos
 
 This is an example of how to list things you need to use the software and how to install them.
 * Python>=3.6, PyTorch
-* Augmented PASCAL VOC 2012 (10582 images for training)
-* 
-
-
-* 
-* Python 3.7, PyTorch 1.1.0, and more in requirements.txt
-* 
-PASCAL VOC 2012 devkit
-NVIDIA GPU with more than 1024MB of memory
-  ```sh
-  npm install npm@latest -g
-  ```
+* Augmented PASCAL VOC 2012 Dataset (10582 images for training)
+* DUT-TR-Single Dataset
 
 ### Installation
 
@@ -70,9 +60,7 @@ NVIDIA GPU with more than 1024MB of memory
    const API_KEY = 'ENTER YOUR API';
    ```
 
-
-
-<!-- USAGE EXAMPLES -->
+<!-- USAGE -->
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
