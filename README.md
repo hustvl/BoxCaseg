@@ -8,7 +8,7 @@ This is the official code of the paper Weakly-supervised Instance Segmentation v
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#introduction">Introduction</a>
+      <a href="#Introduction">Introduction</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -18,7 +18,7 @@ This is the official code of the paper Weakly-supervised Instance Segmentation v
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#citation">Citation</a></li>
+    <li><a href="#Citation">Citation</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -104,22 +104,21 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 If you find the code useful in your research, please consider citing:
 ```BibTeX
 @inproceedings{wang2021boxcaseg,
-  title     =  {{BoxInst}: High-Performance Instance Segmentation with Box Annotations},
-  author    =  {Tian, Zhi and Shen, Chunhua and Wang, Xinlong and Chen, Hao},
+  title     =  {Weakly-supervised Instance Segmentation via Class-agnostic Learning with Salient Images},
+  author    =  {Wang, Xinggang and Feng, Jiapei and Hu, Bin and Ding, Qi and Ran, Longjin and Chen, Xiaoxin and Liu, Wenyu},
   booktitle =  {Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR)},
   year      =  {2021}
 }
 ```
 
-
-
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+We thank NSFC, Zhejiang Laboratory and VIVO Inc for their support to this project.
+
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
