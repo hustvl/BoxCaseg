@@ -28,7 +28,7 @@ This is the official code of the paper Weakly-supervised Instance Segmentation v
 
 Weakly-supervised instance segmentation uses coarser annotations to acquire a high-precision instance segmentation model, such as bounding boxes. This "box-to-seg" process is a class-agnostic process. Our motivation is to learn a model that achieves generic class-agnostic segmentation. 
 
-The training process is divided into three steps. First, we obtain a class-agnostic segmentation model through the joint training of box-supervised dataset and salient object segmentation dataset. Second, we use the class-agnostic segmentation model to produce high-quality predictions for training instances. Those segmentation predictions are merged to generate proxy instance masks for training images. Finally, we re-train a Mask R-CNN with proxy masks.
+The training process is divided into three steps. Firstly, we obtain a class-agnostic segmentation model through the joint training of box-supervised dataset and salient object segmentation dataset. Secondly, we use the class-agnostic segmentation model to produce high-quality predictions for training instances. Those segmentation predictions are merged to generate proxy instance masks for training images. Finally, we re-train a Mask R-CNN with proxy masks.
 
 <!-- PREREQUISITES -->
 ## Prerequisites
@@ -40,7 +40,7 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE -->
 ## Usage
-
+We provide the DUT-TR-Single datasets, the cocostyle annotations of PASCAL VOC and our pre-trained models
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
@@ -64,4 +64,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * We thank NSFC, Zhejiang Laboratory and VIVO Inc for their support to this project.
-* The code is borrowed from [HRNet](https://github.com/HRNet/HRNet-Semantic-Segmentation) and [Mask R-CNN](https://github.com/facebookresearch/maskrcnn-benchmark).
+* The code is borrowed from [HRNet](https://github.com/HRNet/HRNet-Semantic-Segmentation), [BBTP](https://github.com/chengchunhsu/WSIS_BBTP) and [Mask R-CNN](https://github.com/facebookresearch/maskrcnn-benchmark).
