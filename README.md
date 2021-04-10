@@ -11,11 +11,7 @@ This is the official code of the paper Weakly-supervised Instance Segmentation v
       <a href="#Introduction">Introduction</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="#prerequisites">Prerequisites</a>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#Citation">Citation</a></li>
@@ -34,31 +30,13 @@ Weakly-supervised instance segmentation uses coarser annotations to acquire a hi
 
 The training process is divided into three steps. First, we obtain a class-agnostic segmentation model through the joint training of box-supervised dataset and salient object segmentation dataset. Second, we use the class-agnostic segmentation model to produce high-quality predictions for training instances. Those segmentation predictions are merged to generate proxy instance masks for training images. Finally, we re-train a Mask R-CNN with proxy masks.
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-### Prerequisites
+<!-- PREREQUISITES -->
+## Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
 * Python>=3.6, PyTorch
 * Augmented PASCAL VOC 2012 Dataset (10582 images for training)
 * DUT-TR-Single Dataset
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
 <!-- USAGE -->
 ## Usage
