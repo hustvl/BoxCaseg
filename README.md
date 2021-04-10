@@ -45,14 +45,12 @@ Here, we provide the DUT-TR-Single datasets, the cocostyle annotations of PASCAL
 * [GoogleDrive]()
 
 ### Training 
-* 1. After you . More detailed instructions are provided in 'jointraining'.
+1. After you . More detailed instructions are provided in 'jointraining'.
 
-* 2. Generate the proxy masks for box-supervised dataset.
+2. Generate the proxy masks for box-supervised dataset.
 
-* 3. Retrain a Mask R-CNN.
+3. Retrain a Mask R-CNN.
 
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- CITATION -->
 ## Citation
