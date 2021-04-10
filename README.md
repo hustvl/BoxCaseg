@@ -41,7 +41,10 @@ The training process is divided into three steps. First, we obtain a class-agnos
 
 This is an example of how to list things you need to use the software and how to install them.
 * Python>=3.6, PyTorch
-* PASCAL VOC 2012 
+* Augmented PASCAL VOC 2012 (10582 images for training)
+* 
+
+
 * 
 * Python 3.7, PyTorch 1.1.0, and more in requirements.txt
 * 
