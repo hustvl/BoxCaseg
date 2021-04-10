@@ -41,11 +41,11 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE -->
 ## Usage
 Here, we provide the DUT-TR-Single datasets, the cocostyle annotations of PASCAL VOC, our pre-trained models and proxy masks for training set.
-* [BaiduCloud]() The password is '****'.
-* [GoogleDrive]()
+* [BaiduCloud](https://pan.baidu.com/s/1lZpXdzz4U7BB-Kf58L2A7g) The password is 'yint'.
+* [GoogleDrive](https://drive.google.com/drive/folders/12qjGTBzTgehf_5GNF5ph0Rdm3o1xfISt?usp=sharing)
 
 ### Training 
-1. After you . More detailed instructions are provided in 'jointraining'.
+1. After you . More detailed instructions are provided in the `jointraining`.
 
 2. Generate the proxy masks for box-supervised dataset.
 
