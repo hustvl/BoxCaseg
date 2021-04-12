@@ -31,7 +31,7 @@ This dataset is from [BBTP](https://github.com/chengchunhsu/WSIS_BBTP) and can b
 DUT-TR-single-new has no class overlap with Pascal VOC 20 class.
 
 * [BaiDuYun](https://pan.baidu.com/s/1_5i4AAmSKzHSsax9cdDRRw), Access code：oxay
-* [GoogleDrive]()
+* [GoogleDrive](https://drive.google.com/drive/folders/12qjGTBzTgehf_5GNF5ph0Rdm3o1xfISt?usp=sharing)
 
 **COCO2017**
 
