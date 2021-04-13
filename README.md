@@ -45,30 +45,31 @@ Here, we provide the DUT-TR-Single datasets, the cocostyle annotations of PASCAL
 * [GoogleDrive](https://drive.google.com/drive/folders/12qjGTBzTgehf_5GNF5ph0Rdm3o1xfISt?usp=sharing)
 
 ### Training 
-After downloading the dataset, put them in the specific folder. Then, `cd jointraining` and run the following command to do joint training:
+* After downloading the dataset, put them in the specific folder. Then, `cd jointraining` and run the following command to do joint training:
 ```
-bash train_pd.sh
+    bash train_pd.sh
 ```
 for evaluation:
 ```
-bash pascal_val.sh
+    bash pascal_val.sh
 ```
 for predicting segmentation maps of the training instances:
 ```
-bash pascal_psd_mask.sh
+    bash pascal_psd_mask.sh
 ```
 More detailed instructions are provided in the `jointraining`.
 
-Generate the proxy masks for box-supervised dataset. Run the following command: 
+* Generate the proxy masks for box-supervised dataset. Run the following command: 
 ```
-cd proxy_mask
-python pascal_proxy_mask_generate.py --gt-path training_set_boundingbox_cocostyle_json --seg-pred predicted_results
+    cd proxy_mask
+    python pascal_proxy_mask_generate.py --gt-path training_set_boundingbox_cocostyle_json --seg-pred predicted_results
 ```
-Retrain a Mask R-CNN. We use the [Mask R-CNN](https://github.com/facebookresearch/maskrcnn-benchmark) as our instance segmentation framework and we modify `../maskrcnn_benchmark/data/datasets/coco.py` and `../maskrcnn_benchmark/modeling/roi_heads/mask_head/loss.py`
+* Retrain a Mask R-CNN. We use the [Mask R-CNN](https://github.com/facebookresearch/maskrcnn-benchmark) as our instance segmentation framework and we modify two file include `../maskrcnn_benchmark/data/datasets/coco.py` and `../maskrcnn_benchmark/modeling/roi_heads/mask_head/loss.py`.
+ 
  Run the following command: 
 ```
-cd retrain
-python -m torch.distributed.launch --nproc_per_node=2 ./tools/train_net.py --config-file e2e_mask_rcnn_R_101_FPN_4x_voc_aug_cocostyle.yaml
+    cd retrain
+    python -m torch.distributed.launch --nproc_per_node=2 ./tools/train_net.py --config-file e2e_mask_rcnn_R_101_FPN_4x_voc_aug_cocostyle.yaml
 ```
 Check [INSTALL.md](https://github.com/facebookresearch/maskrcnn-benchmark/blob/master/INSTALL.md) for installation instructions.
 
