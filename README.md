@@ -1,6 +1,6 @@
 # Weakly-supervised Instance Segmentation via Class-agnostic Learning with Salient Images.(CVPR 2021)
 
-This is the official code of the paper [Weakly-supervised Instance Segmentation via Class-agnostic Learning with Salient Images](https://arxiv.org/pdf/2104.01526v1.pdf), published in CVPR 2021, by [Xinggang Wang](https://xinggangw.info), Jiapei Feng, Bin Hu, Qi Ding, Longjin Ran, Xiaoxin Chen, Wenyu Liu.
+This is the official code of the paper [Weakly-supervised Instance Segmentation via Class-agnostic Learning with Salient Images](https://arxiv.org/pdf/2104.01526v1.pdf), published in CVPR 2021, by [Xinggang Wang](https://xinggangw.info), Jiapei Feng, Bin Hu, Qi Ding, Longjin Ran, Xiaoxin Chen, [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/).
 
 
 <!-- TABLE OF CONTENTS -->
