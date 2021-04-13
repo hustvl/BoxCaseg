@@ -45,7 +45,9 @@ Here, we provide the DUT-TR-Single datasets, the cocostyle annotations of PASCAL
 * [GoogleDrive](https://drive.google.com/drive/folders/12qjGTBzTgehf_5GNF5ph0Rdm3o1xfISt?usp=sharing)
 
 ### Training 
-1. After you . More detailed instructions are provided in the `jointraining`.
+1. After downloading the dataset, put them in the specific folder. Then, run
+
+   More detailed instructions are provided in the `jointraining`.
 
 2. Generate the proxy masks for box-supervised dataset.
 
