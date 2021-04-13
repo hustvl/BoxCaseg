@@ -68,7 +68,7 @@ More detailed instructions are provided in the `jointraining`.
  
  Run the following command: 
 ```
-    cd retrain
+    cd retrain/maskrcnn-benchmark/
     python -m torch.distributed.launch --nproc_per_node=2 ./tools/train_net.py --config-file e2e_mask_rcnn_R_101_FPN_4x_voc_aug_cocostyle.yaml
 ```
 Check [INSTALL.md](https://github.com/facebookresearch/maskrcnn-benchmark/blob/master/INSTALL.md) for installation instructions.
