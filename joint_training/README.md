@@ -101,7 +101,7 @@ bash train_cd.sh
 
 ---
 
-To calculate metric *mIoU^** and *IoU@k* (k ∈ {0.25, 0.50, 0.70, 0.75}).
+To calculate metric *mIoU** and *IoU@k* (k ∈ {0.25, 0.50, 0.70, 0.75}).
 
 **Validation for Pascal VOC validation set**
 
@@ -149,4 +149,4 @@ COCO: COCO_epoch_50_miou0.717.pth
 
 * Joint training part codes refer codes of [HRNet](https://github.com/HRNet/HRNet-Semantic-Segmentation), [BBTP](https://github.com/chengchunhsu/WSIS_BBTP).
 * Follows U^2 Net, we horizontal flip images of DUT-TR-single and DUT-TR-single-new offline and don't adopt random horizontal flip in data augmentation.
-* For COCO training, we adopt a sample strategy which brings about 1 percent promotion in *miou^* *. Trough calulating ground truth boxes' overlaps in a COCO image, we find some COCO instance with serve occlusion. In training stage, we will randomly drop these instances.
+* For COCO training, we adopt a sample strategy which brings about 1 percent promotion in *mIoU* *. Trough calulating ground truth boxes' overlaps in a COCO image, we find some COCO instance with serve occlusion. In training stage, we will randomly drop these instances.
