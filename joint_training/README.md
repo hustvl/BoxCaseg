@@ -142,7 +142,7 @@ bash coco_psd_mask.sh
 Pascal: pascal_epoch40_miou_0.718.pth
 COCO: COCO_epoch_50_miou0.717.pth
 
-* [BaiDuYun](https://pan.baidu.com/s/1BGyljK-0WthPWur3x73FGw), Access code：2wyu
+* [BaiDuYun](https://pan.baidu.com/s/1lZpXdzz4U7BB-Kf58L2A7g), Access code：yint
 * [GoogleDrive](https://drive.google.com/drive/folders/12qjGTBzTgehf_5GNF5ph0Rdm3o1xfISt?usp=sharing)
 
 ## <span id = "6">6. Some supplements</span>
